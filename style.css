@@ -67,38 +67,40 @@ img{
 }
 
 @media screen and (max-width: 420px){
+  .row {
+    width: 100%;
+    margin-top: 40px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  img {
+    height: 70px;
+  }
   #lezioni .row > .left, #lezioni .row > .right{
     width: 100%;
+  }
+  #lezioni .row > .left,
+  #lezioni .row > .central,
+  #lezioni .row > .right{
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 12px;
   }
   #steps .row > .left,
   #steps .row > .central,
   #steps .row > .right{
     width: 100%;
+    margin-bottom: 40px;
+    font-size: 12px;
   }
-
-  #lezioni .row img,
-  #steps .row img,
-  #why .row img {
-    height: 250px;
-  }
-  #lezioni .row h1,
-  #steps .row h1,
-  #why .row h1 {
-    font-size: 60px;
-  }
-  #lezioni .row h1,
-  #steps .row h1,
-  #why .row h1 {
-    font-size: 65px;
-  }
-  #lezioni .row h3,
-  #steps .row h3,
-  #why .row h3 {
-    font-size: 45px
-  }
-  #lezioni .row div,
-  #steps .row div,
-  #why .row div {
-    font-size: 30px
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third  {
+    font-size: 12px;
+    margin-top: 40px
   }
 }
