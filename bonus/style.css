@@ -65,17 +65,31 @@ img{
 .clear {
   clear:both;
 }
+.nav {
+  display: none;
+}
 
-@media screen and (max-width: 420px){
+@media screen and (min-width: 220px) and (max-width: 900px) {
+  html {
+    background: #4267B2;
+    font-family: 'Josefin Sans', sans-serif;
+  }
   .row {
     width: 100%;
-    margin-top: 40px;
+    margin-top:10px;
+    background: #E9EBEE;
   }
   h1 {
     font-size: 28px;
+    display: inline-block;
+    width: 100%;
+    line-height: 40px;
   }
   h3 {
     font-size: 20px;
+  }
+  h1:hover {
+    font-size: 34px;
   }
   img {
     height: 70px;
